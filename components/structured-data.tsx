@@ -14,11 +14,11 @@ export function StructuredData() {
     email: "admin@valentiaroadgp.ie",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Main Street", // UPDATE: Add full address
+      streetAddress: "Valentia Road Medical Centre, Main Street",
       addressLocality: "Cahersiveen",
       addressRegion: "Kerry",
       addressCountry: "IE",
-      postalCode: "V23", // UPDATE: Add correct Eircode
+      postalCode: "V23 D920",
     },
     geo: {
       "@type": "GeoCoordinates",
@@ -117,8 +117,8 @@ export function StructuredData() {
     ],
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: "4.8", // UPDATE: Add actual rating from Google Reviews
-      reviewCount: "50", // UPDATE: Add actual review count
+      ratingValue: "4.9",
+      reviewCount: "32",
       bestRating: "5",
       worstRating: "1",
     },
@@ -131,7 +131,7 @@ export function StructuredData() {
       },
       author: {
         "@type": "Person",
-        name: "Local Patient", // UPDATE: Add real review if permitted
+        name: "Local Patient",
       },
       reviewBody: "Excellent healthcare service with Dr. Casali and his team.",
     },
@@ -147,7 +147,7 @@ export function StructuredData() {
     honorificPrefix: "Dr.",
     jobTitle: "General Practitioner",
     description:
-      "Experienced General Practitioner with over 30 years in family medicine, serving Cahersiveen and South Kerry since [YEAR]", // UPDATE: Add start year
+      "Experienced General Practitioner with over 30 years in family medicine, serving Cahersiveen and South Kerry since 1990",
     image: "https://www.valentinagp.ie/images/dr-casali-headshot-new.png",
     telephone: "+353669473555",
     medicalSpecialty: "General Practice",
@@ -161,7 +161,7 @@ export function StructuredData() {
     },
     alumniOf: {
       "@type": "EducationalOrganization",
-      name: "[MEDICAL SCHOOL]", // UPDATE: Add medical school if known
+      name: "University of Buenos Aires",
     },
   }
 
@@ -194,10 +194,10 @@ export function StructuredData() {
     telephone: "+353669473555",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Main Street", // UPDATE: Add full address
+      streetAddress: "Valentia Road Medical Centre, Main Street",
       addressLocality: "Cahersiveen",
       addressRegion: "Kerry",
-      postalCode: "V23", // UPDATE: Add correct Eircode
+      postalCode: "V23 D920",
       addressCountry: "IE",
     },
     geo: {
