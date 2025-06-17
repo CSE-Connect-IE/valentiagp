@@ -1,0 +1,22 @@
+[
+  {
+    "service": "Standard Consultation",
+    "price": "€60"
+  },
+  {
+    "service": "Follow-up Consultation",
+    "price": "€40"
+  },
+  {
+    "service": "Video Consultation",
+    "price": "€50"
+  },
+  {
+    "service": "Blood Test",
+    "price": "€30"
+  },
+  {
+    "service": "Repeat Prescription",
+    "price": "€20"
+  }
+]
